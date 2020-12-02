@@ -6258,14 +6258,14 @@ window.jQuery = window.$ = jQuery;
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301, USA.
  *
  * Authors:
- *  Cedric Pinson <cedric.pinson@plopbyte.net>
+ *  Cedric Pinson <trigrou@trigrou.com>
  *
  */
 
 var gl;
 var OpenSceneGraph = {
     version: '0.0.1',
-    copyright: 'Cedric Pinson - cedric.pinson@plopbyte.net',
+    copyright: 'Cedric Pinson - trigrou@trigrou.com',
     instance: 0,
     verbose: 0,
 
@@ -8942,7 +8942,7 @@ function drawScene()
         DefaultImage.onload = function() {
             Ready = true;
         };
-        DefaultImage.src="http://portfolio.plopbyte.net/wp-uploads/2010/demo-particles-osg-js/models/file_low.png";
+        DefaultImage.src="models/file_low.png";
         NotReady=false;
     }
     if (!Ready) {
